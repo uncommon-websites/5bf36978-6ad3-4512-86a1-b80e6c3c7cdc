@@ -3,21 +3,23 @@
 		<!-- Left Column -->
 		<div>
 			<h2 class="mb-8 text-4xl font-bold leading-tight tracking-tight text-black md:text-5xl lg:text-6xl">
-				Strategisch. Professionell.<br />
-				Pragmatisch.
+				Responsive. Reliable.<br />
+				Affordable.
 			</h2>
 			<p class="max-w-md text-lg leading-relaxed text-gray-800">
-				Das unterscheidet uns von klassischen Raumausstattern und Möbelhändlern.
+				What sets us apart from large enterprise facility management companies.
 			</p>
 		</div>
 
 		<!-- Right Column: List -->
 		<div class="flex flex-col">
 			{#each [
-				'Orientierung schaffen',
-				'Räume planen, die passen',
-				'Umsetzung sicherstellen',
-				'Wandel begleiten'
+				'Single Point of Contact',
+				'All Trades Under One Roof',
+				'Fast Response Times',
+				'Transparent Pricing',
+				'Multi-Site Portfolio Support',
+				'Local Indianapolis Expertise'
 			] as item}
 				<div class="group flex cursor-pointer items-center justify-between border-b border-gray-200 py-6 transition-colors hover:bg-gray-50">
 					<span class="text-xl font-medium text-gray-900">{item}</span>

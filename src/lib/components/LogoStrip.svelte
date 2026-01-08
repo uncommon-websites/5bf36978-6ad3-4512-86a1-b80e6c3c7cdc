@@ -1,29 +1,27 @@
 <section class="w-full bg-white py-16 md:py-24">
 	<div class="mx-auto max-w-[1800px] px-6 md:px-12 lg:px-20">
-		<div class="flex flex-wrap items-center justify-between gap-8 md:gap-12 opacity-80 grayscale transition-all duration-500 hover:grayscale-0">
-			<!-- Hushoffice -->
+		<div class="text-center mb-8">
+			<p class="text-sm uppercase tracking-widest text-gray-500 font-bold">Trusted by Commercial Property Owners Across Indianapolis</p>
+		</div>
+		<div class="flex flex-wrap items-center justify-center gap-12 md:gap-16 opacity-70">
+			<!-- SBA -->
 			<div class="flex items-center gap-2">
-				<div class="h-6 w-6 bg-black"></div> <!-- Placeholder icon -->
-				<span class="text-xl font-bold tracking-tight">hushoffice</span>
+				<span class="text-lg font-bold tracking-tight">Small Business Administration</span>
 			</div>
 
-			<!-- König + Neurath -->
+			<!-- IFMA -->
 			<div class="flex items-center gap-2">
-				<div class="h-6 w-6 bg-black clip-path-polygon"></div>
-				<span class="text-lg font-bold">König + Neurath</span>
+				<span class="text-lg font-bold">IFMA</span>
 			</div>
 
-			<!-- VARIO -->
-			<span class="text-xl font-light tracking-widest">VARIO</span>
+			<!-- Commercial Real Estate -->
+			<span class="text-lg font-medium tracking-wide">Commercial Real Estate</span>
 
-			<!-- sedus -->
-			<span class="text-2xl font-bold lowercase">sedus</span>
+			<!-- Retail & Restaurant -->
+			<span class="text-lg font-medium">Retail & Restaurant</span>
 
-			<!-- vitra. -->
-			<span class="font-serif text-2xl font-bold lowercase">vitra.</span>
-
-			<!-- Wilkhahn -->
-			<span class="text-xl font-medium">Wilkhahn</span>
+			<!-- Multi-Site Portfolios -->
+			<span class="text-lg font-medium">Multi-Site Portfolios</span>
 		</div>
 	</div>
 </section>

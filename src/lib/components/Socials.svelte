@@ -1,76 +1,56 @@
 <section class="w-full bg-black py-16 md:py-24 text-white">
 	<div class="mx-auto max-w-[1800px] px-6 md:px-12 lg:px-20">
-		<div class="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
-			<!-- Social Card 1 -->
-			<div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-gray-800">
-				<img
-					src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2574&auto=format&fit=crop"
-					alt="Social media content"
-					class="h-full w-full object-cover opacity-80"
-				/>
-				<div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/80 to-transparent">
-					<div class="mb-2 flex items-center gap-2">
-						<div class="h-8 w-8 rounded-full bg-white/20"></div>
-						<span class="text-xs font-bold">Schumm und Rösch</span>
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+			<!-- Service Area 1 -->
+			<div class="text-center">
+				<div class="mb-4 flex justify-center">
+					<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-500">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+							<polyline points="9 22 9 12 15 12 15 22"></polyline>
+						</svg>
 					</div>
-					<p class="text-sm font-bold">VON OPEN SPACE</p>
 				</div>
+				<h3 class="mb-2 text-xl font-bold">Commercial Properties</h3>
+				<p class="text-gray-400">Office buildings, retail spaces, and commercial real estate</p>
 			</div>
 
-			<!-- Social Card 2 -->
-			<div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-gray-800">
-				<img
-					src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2670&auto=format&fit=crop"
-					alt="Social media content"
-					class="h-full w-full object-cover opacity-80"
-				/>
-				<div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/80 to-transparent">
-					<div class="mb-2 flex items-center gap-2">
-						<div class="h-8 w-8 rounded-full bg-white/20"></div>
-						<span class="text-xs font-bold">Schumm und Rösch</span>
+			<!-- Service Area 2 -->
+			<div class="text-center">
+				<div class="mb-4 flex justify-center">
+					<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-500">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+							<line x1="3" y1="9" x2="21" y2="9"></line>
+							<line x1="9" y1="21" x2="9" y2="9"></line>
+						</svg>
 					</div>
-					<p class="text-sm font-bold">DER RAUM IST</p>
 				</div>
+				<h3 class="mb-2 text-xl font-bold">Restaurant & Retail</h3>
+				<p class="text-gray-400">Fast response for active business operations</p>
 			</div>
 
-			<!-- Social Card 3 -->
-			<div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-gray-800">
-				<img
-					src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2574&auto=format&fit=crop"
-					alt="Social media content"
-					class="h-full w-full object-cover opacity-80"
-				/>
-				<div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/80 to-transparent">
-					<div class="mb-2 flex items-center gap-2">
-						<div class="h-8 w-8 rounded-full bg-white/20"></div>
-						<span class="text-xs font-bold">Schumm und Rösch</span>
+			<!-- Service Area 3 -->
+			<div class="text-center">
+				<div class="mb-4 flex justify-center">
+					<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary-500">
+						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+							<polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+							<line x1="12" y1="22.08" x2="12" y2="12"></line>
+						</svg>
 					</div>
-					<p class="text-sm font-bold">GUT ARBEITEN</p>
 				</div>
-			</div>
-
-			<!-- Social Card 4 -->
-			<div class="relative aspect-[9/16] overflow-hidden rounded-xl bg-gray-800">
-				<img
-					src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=2574&auto=format&fit=crop"
-					alt="Social media content"
-					class="h-full w-full object-cover opacity-80"
-				/>
-				<div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/80 to-transparent">
-					<div class="mb-2 flex items-center gap-2">
-						<div class="h-8 w-8 rounded-full bg-white/20"></div>
-						<span class="text-xs font-bold">Schumm und Rösch</span>
-					</div>
-					<p class="text-sm font-bold">ganz ehrlich</p>
-				</div>
+				<h3 class="mb-2 text-xl font-bold">Multi-Site Portfolios</h3>
+				<p class="text-gray-400">Consistent service across all your locations</p>
 			</div>
 		</div>
 
-		<div class="mt-12">
-			<p class="text-lg text-white">
-				Hol dir Inspiration zum Thema zeitgemäßes<br />
-				Bürodesign auf unserem <a href="#" class="underline decoration-1 underline-offset-4 hover:decoration-2">TikTok Kanal.</a>
+		<div class="mt-16 text-center">
+			<p class="text-lg text-white mb-4">
+				Serving the Indianapolis area with professional facility maintenance
 			</p>
+			<a href="tel:317-953-2544" class="text-2xl font-bold text-primary-400 underline decoration-1 underline-offset-4 hover:decoration-2">317-953-2544</a>
 		</div>
 	</div>
 </section>
